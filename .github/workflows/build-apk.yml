@@ -19,7 +19,7 @@ jobs:
 
       - name: Extract source ZIP
         run: |
-          unzip -q BhojpuriDubbingAI_V14_APK_READY_SOURCE.zip
+          unzip -q -o BhojpuriDubbingAI_V14_APK_READY_SOURCE.zip
           test -d BhojpuriDubbingAI/android
 
       - name: Set up Java 17
